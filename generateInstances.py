@@ -93,9 +93,10 @@ patterns = [
     "<WRES><PPOS>(?:-{0,2}>|→)<MRES>"
 ]
 
-data = []
+data = {}
 for pattern in patterns:
 
+    instances = []
     for i in range(numberOfIterations):
 
 
@@ -121,11 +122,10 @@ for pattern in patterns:
 
 
         instance = {}
-        instance["pattern"] = pattern
         instance["samples"] = sample[0:10]
         instance["hgvs"] = hgvs
-        data.append(instance)
-
+        instances.append(instance)
+    data[pattern] = instances
 
 
 
