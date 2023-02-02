@@ -90,7 +90,8 @@ vocabulary  = longForm
 
 patterns = [
     "<WRES>\s<PPOS>\s<MRES>",
-    "<WRES><PPOS>(?:-{0,2}>|→)<MRES>"
+    "<WRES>\s<PPOS>(?:-{0,2}>|→)<MRES>",
+    "<WRES>\s<PPOS> to <MRES>"
 ]
 
 data = {}
