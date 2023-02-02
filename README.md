@@ -10,3 +10,12 @@
   - Single-form (A)
 - How does our model perform on PubMed? (i.e., use our data from tmVar or SETH)
 - Train a model on instances from Pattern 1-100 and test it on unseen patterns
+
+
+# TODO!
+- The list of amino acids is not complete (e.g., Ter, Termination, X are  missing)
+- The amino acids currently are all uppercase (I think that is nat what we want :)
+- I generated the three amino-acids maps by hand! They are incorrect and some long forms are missing!
+- Currently, I only generated patterns for Amino acid subsititutions
+- Currently, I genereated only traning instances with the long form amino-acids (this can easily be changed)
+- 

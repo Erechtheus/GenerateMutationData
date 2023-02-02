@@ -6,8 +6,6 @@ from collections import ChainMap
 outJSON = "file.json"
 numberOfIterations = 100 #Defines the number of differnt residue-pairs we sample for a single pattern
 
-#TODO: I believe that there are some specific cases like Ter for X missing :-)
-#TODO: I generated the three maps by hand! They are not perfect and some long forms are missing!
 
 # A dictionary mapping three-letter amino acids codes onto one-letter
 # amino acid codes
