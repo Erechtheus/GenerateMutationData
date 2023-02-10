@@ -10,6 +10,8 @@
   - Single-form (A)
 - How does our model perform on PubMed? (i.e., use our data from tmVar or SETH)
 - Train a model on instances from Pattern 1-100 and test it on unseen patterns
+- Can we train on longer context? E.g., use the sentence instead of single instances?
+- Can we (to some degree) predict the reference sequence (e.g., cDNA, proteim) or different mutation types (e.g., substitution, deletion)
 
 
 # TODO!
